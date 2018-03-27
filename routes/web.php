@@ -12,9 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('auth.login');
 });
 
 Auth::routes();
 
+//
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('create/project','HomeController@createProject')->name('create_project');

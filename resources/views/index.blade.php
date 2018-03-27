@@ -40,24 +40,16 @@
         
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
-            <section class="content-header">
-                <h1>
-                    <h1><i class="fa fa-folder-open"></i>    My Projects</h1>
-               </h1>
-                <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-                    <li class="active">Here</li>
-                </ol>
-            </section>
+                @yield('page_title')
             
-        <div class="container">
-            <button class="btn btn-lg btn-primary" style="margin-top:17px; margin-left: 35px"><i class="fa fa-plus"></i>   Create New </button>
-        </div>
-            <!-- Main content -->
+      
+            <!-- Main content   -->
             <section class="content">
 
                 <!-- Your Page Content Here -->
-                @include('content')
+                
+
+                @yield('content')
 
             </section><!-- /.content -->
         </div><!-- /.content-wrapper -->
@@ -78,6 +70,7 @@
     
     <script src="{{ asset ("/bower_components/admin-lte/dist/js/demo.min.js") }}" type="text/javascript"></script>
 
+    <script src="{{ asset ("js/main.js") }}" type="text/javascript"></script>
     <!-- Optionally, you can add Slimscroll and FastClick plugins.
           Both of these plugins are recommended to enhance the
           user experience -->
