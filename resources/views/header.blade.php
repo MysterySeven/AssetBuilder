@@ -2,7 +2,7 @@
 <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo"><b>Application</b> Builder</a>
+    <a href="{{ url('/home') }}" class="logo"><b>Application</b> Builder</a>
 
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">
@@ -27,7 +27,7 @@
                 <!-- Notifications Menu -->
                 <li class="dropdown notifications-menu">
                     <!-- My Projects Button -->
-                    <a href="#" class="dropdown-toggle" >
+                    <a href="{{ url('/home') }}" class="dropdown-toggle" >
                       
                             My Projects
                       

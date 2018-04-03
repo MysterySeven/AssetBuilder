@@ -2,24 +2,32 @@
 
 @section('content')
 <div class="container">
+<div class="carousel-centered">
+    <div class="margin-b-40">
+        <h4 class="carousel-title">Place Dramatic Phrase Here</h4>
+    </div>
+</div>
+</div>
+
+<div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
+        <div class="col-md-4 col-md-offset-8 login-panel">
+            <div class="panel panel-default" style="height:400px;;">
                 <div class="panel-heading">Login</div>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
+                        <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+                                
+                        <label for="email" class="col-md-4 control-label">Username</label>
 
-                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+                            <div class="col-md-8">
+                                    <input id="username" type="text" class="form-control" name="username" value="{{ old('text') }}" required autofocus>
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
-
-                                @if ($errors->has('email'))
+                                @if ($errors->has('username'))
                                     <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
+                                        <strong>{{ $errors->first('username') }}</strong>
                                     </span>
                                 @endif
                             </div>
@@ -28,7 +36,7 @@
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Password</label>
 
-                            <div class="col-md-6">
+                            <div class="col-md-8">
                                 <input id="password" type="password" class="form-control" name="password" required>
 
                                 @if ($errors->has('password'))
@@ -49,17 +57,28 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <div class="col-md-8 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
+                       
+         <div class="form-group">
+                            <div class="col-lg-12 col-md-offset-4">
+                                <button type="submit" class="btn btn-primary login-btn">
                                     Login
                                 </button>
-
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    Forgot Your Password?
-                                </a>
                             </div>
+                            
+                            
                         </div>
+
+
+                        <div class="form-group">
+                            <div class="col-md-12 col-md-offset-2">
+                            <a class="btn btn-link forgot-link" href="{{ route('password.request') }}">
+                            Forgot Your Password?
+                        </a>
+                            </div>
+                            
+                            
+                        </div>
+                        
                     </form>
                 </div>
             </div>
