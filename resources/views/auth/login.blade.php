@@ -3,9 +3,12 @@
 @section('content')
 <div class="container">
 <div class="carousel-centered">
-    <div class="margin-b-40">
-        <h4 class="carousel-title">Place Dramatic Phrase Here</h4>
+    <!-- <div class="margin-b-40">
+        <h4 class="carousel-title">Place Dramatic</h4>
     </div>
+    <div class="margin-b-40">
+        <h4 class="carousel-title">Phrase Here</h4>
+    </div> -->
 </div>
 </div>
 

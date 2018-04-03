@@ -18,7 +18,7 @@
 
 <div class="container" style="margin-top:30px">
 <div class="row">
-<div class="col-md-4">
+<div class="col-md-3">
         <div class="box">
         <div class="box-header with-border">
             <h3 class="box-title">Monitoring</h3>
@@ -35,7 +35,7 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-            <a href="sb-admin-2/index.html">Edit this Page <i class="fa fa-arrow-right"></i></a>
+            <a href="sb-admin-2/index.html">Select <i class="fa fa-arrow-right"></i></a>
         </div>
 
  </div>
@@ -46,7 +46,7 @@
     <!-- Box1 End -->
 
 
-<div class="col-md-4">
+<div class="col-md-3">
         <div class="box">
         <div class="box-header with-border">
             <h3 class="box-title">Health Service</h3>
@@ -63,14 +63,14 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-            <a href="sb-admin-2/index.html">Edit this Page <i class="fa fa-arrow-right"></i></a>
+            <a href="sb-admin-2/index.html">Select <i class="fa fa-arrow-right"></i></a>
         </div>
 
  </div>
 </div>
 <!-- Box2 End -->
 
-<div class="col-md-4">
+<div class="col-md-3">
         <div class="box">
         <div class="box-header with-border">
             <h3 class="box-title">E-Commerce</h3>
@@ -87,7 +87,7 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-            <a href="sb-admin-2/index.html">Edit this Page <i class="fa fa-arrow-right"></i></a>
+            <a href="sb-admin-2/index.html">Select <i class="fa fa-arrow-right"></i></a>
         </div>
 
  </div>
