@@ -49,11 +49,11 @@
 <div class="col-md-3">
         <div class="box">
         <div class="box-header with-border">
-            <h3 class="box-title">Health Service</h3>
+            <h3 class="box-title">Monitoring</h3>
             <div class="box-tools pull-right">
             <!-- Buttons, labels, and many other things can be placed here! -->
             <!-- Here is a label for example -->
-            <span class="label label-primary">Health Service</span>
+            <span class="label label-primary">Monitoring</span>
             </div>
             <!-- /.box-tools -->
         </div>
