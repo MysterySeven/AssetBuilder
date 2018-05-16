@@ -37,7 +37,7 @@
 @endsection
 @section('content')
 <div id="app">
-  <!-- <ul class="nav nav-tabs">
+  <ul class="nav nav-tabs">
     <li class="nav-item">
       <a class="nav-link active show" data-toggle="tab" href="#healthcare">HealthCare System</a>
     </li>
@@ -54,7 +54,7 @@
       <a class="nav-link" data-toggle="tab" href="#knowledge">Knowledge Base</a>
     </li>
 
-  </ul> -->
+  </ul>
   <div id="myTabContent" class="tab-content app-content">
     <div class="tab-pane fade active show" id="healthcare">
 
