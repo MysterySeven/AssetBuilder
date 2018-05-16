@@ -18,7 +18,7 @@
                 <ul class="sidebar-menu">
                     <li class="header">HEADER</li>
                     <!-- Optionally, you can add icons to the links -->
-                    <li class="active"><a href="{{ route('create_project') }} id="create_project_btn" style="margin-top:30px;margin-bottom:50px;"> <span><i class="fa fa-plus"></i>   Create New</span></a></li>
+                    <li class="active"><a href="{{ route('create_project') }}"> <span><i class="fa fa-plus"></i>   Create New</span></a></li>
               
                     <li class="treeview">
                         <a href="#"><span><i class="fa fa-table"></i>    Drafts</span> <i class="fa fa-angle-left pull-right"></i></a>

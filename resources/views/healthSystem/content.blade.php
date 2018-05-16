@@ -45,7 +45,7 @@
 
   </ul>
   <div id="myTabContent" class="tab-content app-content">
-    <div class="tab-pane fade active show" id="healthcare">
+    <!-- <div class="tab-pane fade active show" id="healthcare"> -->
 
      <div class="features" v-if="isReady">
       <div class="feature-item" v-for="feature in this.apps.find(x => x.name==='HealthCare').features" @click="addFeature('Healthcare', feature)">
