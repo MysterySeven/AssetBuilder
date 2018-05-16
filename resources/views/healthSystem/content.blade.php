@@ -58,11 +58,11 @@
   <div id="myTabContent" class="tab-content app-content">
     <div class="tab-pane fade active show" id="healthcare">
 
-     <div class="features" v-if="isReady">
+     <!-- <div class="features" v-if="isReady">
       <div class="feature-item" v-for="feature in this.apps.find(x => x.name==='HealthCare').features" @click="addFeature('Healthcare', feature)">
        <i class="material-icons md-62" >@{{ feature.icon }}</i>
        <p>@{{ feature.title }}</p>
-     </div>
+     </div> -->
     <!-- <div class="feature-item">
         <i class="material-icons md-62">developer_board</i></a>
         <p>Authentication</p>
