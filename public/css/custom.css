@@ -1,0 +1,27 @@
+
+      .material-icons.md-62 { font-size: 62px; }
+      .feature-item {
+          display: inline-block;
+          text-align: center;
+          cursor: pointer;
+          border: 1px solid dodgerblue;
+          width: 127px;
+          border-radius: 3px;
+          margin: 5px;
+      } 
+      .app-content {
+          margin-top: 20px;
+      }
+  .save-btn {
+      float: right;
+      margin-right: 100px;
+  }
+  .btn-wrap {
+    margin-top: 100px;
+  }
+  #myTabContent {
+      min-height: 400px;
+  }
+  .btn-custom {
+      margin: 10px;
+  }

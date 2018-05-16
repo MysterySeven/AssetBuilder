@@ -35,7 +35,7 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-            <a href="sb-admin-2/index.html">Select <i class="fa fa-arrow-right"></i></a>
+            <a href="{{ route('microservices') }}">Select <i class="fa fa-arrow-right"></i></a>
         </div>
 
  </div>

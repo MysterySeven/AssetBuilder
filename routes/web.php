@@ -21,3 +21,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('create/project','HomeController@createProject')->name('create_project');
+
+Route::get('foo', function () {
+    return view('healthSystem.content');
+})->name('microservices');
