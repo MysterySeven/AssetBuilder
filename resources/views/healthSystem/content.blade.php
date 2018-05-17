@@ -38,9 +38,9 @@
 @section('content')
 <div id="app">
   <ul class="nav nav-tabs">
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link active show" data-toggle="tab" href="#healthcare">HealthCare System</a>
-    </li>
+    </li> -->
    
 
   </ul>
