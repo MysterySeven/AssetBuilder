@@ -30,4 +30,10 @@ class HomeController extends Controller
     {
         return view('createProject');
     }
+        public function chooseTemplate()
+    {
+        return view('chooseTemplate');
+        
+    }
+
 }

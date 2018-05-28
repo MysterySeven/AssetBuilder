@@ -22,6 +22,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('create/project','HomeController@createProject')->name('create_project');
 
+Route::get('/templates','HomeController@chooseTemplate')->name('choose_template');
+
+
+Route::get('template', function () {
+    return view('chooseTemplate');
+
+})->name('template');
+
 Route::get('foo', function () {
     return view('healthSystem.content');
+
 })->name('microservices');

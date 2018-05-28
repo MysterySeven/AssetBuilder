@@ -157,7 +157,7 @@
           customClass: 'animated bounceIn',
           showCancelButton: true,
           cancelButtonText: 'Add More Features',
-          confirmButtonText: 'Proceed to checkout',
+          confirmButtonText: 'checkout',
           reverseButtons: true,
           buttonsStyling: false,
           confirmButtonClass: 'btn btn-primary btn-custom',

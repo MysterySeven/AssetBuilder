@@ -20,9 +20,10 @@
                     <!-- Optionally, you can add icons to the links -->
                     <li class="active"><a href="{{ route('create_project') }}"> <span><i class="fa fa-plus"></i>   Create New</span></a></li>
               
+
                     <li class="treeview">
                         <a href="#"><span><i class="fa fa-table"></i>    Drafts</span> <i class="fa fa-angle-left pull-right"></i></a>
-                        <ul class="treeview-menu">
+                        <ul class="treeview-menu">S
                             <li><a href="#">Link in level 2</a></li>
                             <li><a href="#">Link in level 2</a></li>
                         </ul>
