@@ -113,8 +113,8 @@
         desc: "HealthCare system - web application",
         features: [
         {title: "Authentication", icon: "developer_board" },
-        {title: "Dashboard", icon: "security" },
         {title: "Database", icon: "screen_lock_landscape" },
+        {title: "Dashboard", icon: "security" },
         {title: "Contact Us", icon: "cloud"}
         ]
       },
@@ -165,7 +165,7 @@
 
         }).then((result) => {
             if(result.value) {
-              window.location.href = '/checkout'
+              window.location.href = '/checkout/' + sFeatures;
             }
         })
       },

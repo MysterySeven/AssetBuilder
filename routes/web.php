@@ -34,3 +34,14 @@ Route::get('foo', function () {
     return view('healthSystem.content');
 
 })->name('microservices');
+
+Route::get('/checkout/{features}','CallController@checkout');
+
+
+//Call microservice Routing
+Route::get('/patient','CallController@getUsers')->name('call');
+Route::get('/add/user','CallController@showForms')->name('addUser');
+Route::post('/add/user/save','CallController@create')->name('saveUser');
+Route::get('/add/edit/{id}','CallController@edit')->name('editUser');
+Route::get('/delete/{id}','CallController@deletePatient')->name('deleteUser');
+Route::resource('user','CallController');
